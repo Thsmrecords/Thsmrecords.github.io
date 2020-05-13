@@ -7,30 +7,40 @@
 * {
   box-sizing: border-box;
 }
- 
+
+
 body {
   font-family: Arial;
   padding: 10px;
-  background-image:url('http://m.qpic.cn/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/N6ix9ropXhYRy3eob.4AqzEfM.x3Ci6ixWdLM5gHebiD*rZ1UmoU.5JQ5Qqn1yrxA2Ivf5P*i9tK8mB1fv7xng!!/b&bo=6APyAQAAAAARByg!&rf=viewer_4');
-  background-size:cover;
-  background-attachment:fixed;
+  background-image:url('http://r.photo.store.qq.com/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/UEyoh0SDzKiAwcrP9ANXSuHj6RDcvRapm1H94cBzAKPOQJNjPA4fQJacDNmAp2S*UsmpEqwwAeTO04lBHIxH7kOGKNFUlJ.dpDFabdkWugc!/r');
+  background-size:auto;
+  
+
 }
  
 /* 头部标题 */
 .header {
-  padding: 30px;
+  
   text-align: center;
-  background: white;
+  background-color:(255,0,0,0.4);
+  
+  
+ 
 }
  
 .header h1 {
-  font-size: 50px;
+  font-size: 65px;
 }
  
 /* 导航条 */
 .topnav {
-  overflow: hidden;
+  overflow: auto;
   background-color: #333;
+  opacity:0.8;
+  position:fixed;
+  width: 100%;
+  top: 0;
+  left:0;
 }
  
 /* 导航条链接 */
@@ -39,7 +49,7 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 13px 30px;
   text-decoration: none;
 }
  
@@ -53,37 +63,30 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  
+  <!--background-image:url('http://r.photo.store.qq.com/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/UEyoh0SDzKiAwcrP9ANXSiemuoYJzT1Z42N051kTSwYdNenNsxuYB2Tx8689JU6Jm274Vga..0CKMTOsIR1lIXz9viuIaZ*CutGB9QdHuGo!/r');
+  background-size: cover;-->
   margin-top: 20px;
   margin: 0;
 }
-.img-box{
-	padding-bottom:0%;
-}
-
-.img-box img{
-	position:left;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
-	width:100%;
-	margin:auto;
-}
-
 
 /* 创建两列 */
 /* Left column */
 .leftcolumn {   
   float: left;
   width: 37%;
+  background-image:url('http://r.photo.store.qq.com/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/UEyoh0SDzKiAwcrP9ANXSiemuoYJzT1Z42N051kTSwYdNenNsxuYB2Tx8689JU6JdEx*63BC0VRRTmtvdGEnuLO4yC9HI1db3nHJiGcH5P4!/r');
+  background-size:cover;
+  opacity:0.9;
 }
  
 /* 右侧栏 */
 .rightcolumn {
   float: left;
   width: 63%;
-  background-color: #f1f1f1;
+  background-image:url('http://r.photo.store.qq.com/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/UEyoh0SDzKiAwcrP9ANXSiemuoYJzT1Z42N051kTSwYdNenNsxuYB2Tx8689JU6JdEx*63BC0VRRTmtvdGEnuLO4yC9HI1db3nHJiGcH5P4!/r');
+  background-size:cover;
+  opacity:0.9;
   padding-left: 20px;
 }
  
@@ -96,9 +99,11 @@ body {
  
 /* 文章卡片效果 */
 .card {
-  background-color: white;
+
+  
+ <!-- background:transparent;-->
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
  
 /* 列后面清除浮动 */
@@ -108,7 +113,6 @@ body {
   clear: both;
 }
  
-
 
  
 /* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
@@ -127,38 +131,83 @@ body {
   }
 }
 
-#background {
-    background: black;
-    padding: 15px;
+.img-box{
+	padding-bottom:0%;
+}
+
+.img-box img{
+	position:left;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	margin:auto;
+}
+@font-face {
+    font-family: mySweet;
+    src: url("/Font/HYXinHaiXingKaiW.ttf")
+}
+
+.sweet{
+    font-family: mySweet;
+    color:black;
+    text-shadow: white 0em 0em 0.3em;
+}
+
+.header p{
+  font-size: 25px;
+  color:black;
+  font-weight:bold;
+
+
+}
+
+.button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 </style>
 </head>
 <body>
 <div id="background">
+
+
 <div class="header">
-   <h1>童话似梦</h1>
-  <p>五彩斑斓的童话梦，等你一起来圆梦。</p>
+   <h1 class="sweet"style="color:black;text-shadow: white 0.1em 0.1em 0.2em">童话似梦</h1>
+  <p class="sweet"style="color:black;text-shadow: white 0.1em 0.1em 0.2em">五彩斑斓的童话梦，等你一起来圆梦。</p>
+  <h2 class="sweet"style="color:black;text-shadow: white 0.1em 0.1em 0.2em">扫描二维码加入考核群</h2>
+  
 </div>
 
 <div class="topnav">
-  <a href="/index.html">主页</a>
-  <a href="/duineisai.html">车队赛事</a>
-  <a href="/joinus.html">加入我们</a>
+  <a href="/index.html"><button class="button">主页</button></a>
+  <a href="/duineisai.html"><button class="button">车队赛事</button></a>
+  <a href="/duineisai0.html" target="iframe_4"><button class="button">车队记录榜</button></a>
+  <a href="/joinus.html"><button class="button">加入我们 车队考核群： 576150707</button></a>
+  <a href="/joinus.html" style="float:right;">
+ 
+ <img src="http://m.qpic.cn/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/N6ix9ropXhYRy3eob.4AqzQS0GGJrwlqnGNpnkES93HN1weEw.qt4U9.jN3ig7yZwhZ4R.FLG7s*YIbxYu0Txw!!/b&bo=BQHBAAAAAAARB*U!&rf=viewer_4"width="80" height="30"/>
+</a>
 </div>
-<div class="footer" >
-  <h2>童话似梦欢迎您哦！</h2>
-  <h2>扫描二维码加入考核群</h2>
-</div>
+
+
 <div class="img-box">
 	<img src="code.png"/>
 </div>
     
     
-<div class="footer" >
-  <h2><a href="/index.html">返回主页</a></h2>
-</div>
-<div id="outer" style="clear:both;text-align:center;">
-<p style="color:white;text-shadow: black 0.1em 0.1em 0.2em;">2018-2020 版权 © 童话似梦</p></div>
+
+<div id="outer" style="background-color:black;clear:both;text-align:center;">
+<p style="color:white;">2018-2020 版权 © 童话似梦</p></div>
 </div>
 </body>
 </html>
