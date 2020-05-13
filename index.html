@@ -7,31 +7,40 @@
 * {
   box-sizing: border-box;
 }
- 
+
+
 body {
   font-family: Arial;
   padding: 10px;
-  background-image:url('http://m.qpic.cn/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/N6ix9ropXhYRy3eob.4AqzEfM.x3Ci6ixWdLM5gHebiD*rZ1UmoU.5JQ5Qqn1yrxA2Ivf5P*i9tK8mB1fv7xng!!/b&bo=6APyAQAAAAARByg!&rf=viewer_4');
+  background-image:url('http://r.photo.store.qq.com/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/UEyoh0SDzKiAwcrP9ANXSuHj6RDcvRapm1H94cBzAKPOQJNjPA4fQJacDNmAp2S*UsmpEqwwAeTO04lBHIxH7kOGKNFUlJ.dpDFabdkWugc!/r');
+  background-size:auto;
   
-  background-attachment:fixed;
+
 }
  
 /* 头部标题 */
 .header {
-  padding: 30px;
-  text-align: center;
-  background: white;
   
+  text-align: center;
+  background-color:(255,0,0,0.4);
+  
+  
+ 
 }
  
 .header h1 {
-  font-size: 50px;
+  font-size: 65px;
 }
  
 /* 导航条 */
 .topnav {
-  overflow: hidden;
+  overflow: auto;
   background-color: #333;
+  opacity:0.8;
+  position:fixed;
+  width: 100%;
+  top: 0;
+  left:0;
 }
  
 /* 导航条链接 */
@@ -54,7 +63,9 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  
+  <!--background-image:url('http://r.photo.store.qq.com/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/UEyoh0SDzKiAwcrP9ANXSiemuoYJzT1Z42N051kTSwYdNenNsxuYB2Tx8689JU6Jm274Vga..0CKMTOsIR1lIXz9viuIaZ*CutGB9QdHuGo!/r');
+  background-size: cover;-->
   margin-top: 20px;
   margin: 0;
 }
@@ -64,13 +75,18 @@ body {
 .leftcolumn {   
   float: left;
   width: 37%;
+  background-image:url('http://r.photo.store.qq.com/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/UEyoh0SDzKiAwcrP9ANXSiemuoYJzT1Z42N051kTSwYdNenNsxuYB2Tx8689JU6JdEx*63BC0VRRTmtvdGEnuLO4yC9HI1db3nHJiGcH5P4!/r');
+  background-size:cover;
+  opacity:0.9;
 }
  
 /* 右侧栏 */
 .rightcolumn {
   float: left;
   width: 63%;
-  
+  background-image:url('http://r.photo.store.qq.com/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/UEyoh0SDzKiAwcrP9ANXSiemuoYJzT1Z42N051kTSwYdNenNsxuYB2Tx8689JU6JdEx*63BC0VRRTmtvdGEnuLO4yC9HI1db3nHJiGcH5P4!/r');
+  background-size:cover;
+  opacity:0.9;
   padding-left: 20px;
 }
  
@@ -83,7 +99,9 @@ body {
  
 /* 文章卡片效果 */
 .card {
-  background-color: white;
+
+  
+ <!-- background:transparent;-->
   padding: 20px;
   margin-top: 10px;
 }
@@ -126,29 +144,60 @@ body {
 	width:100%;
 	margin:auto;
 }
+@font-face {
+    font-family: mySweet;
+    src: url("/Font/HYXinHaiXingKaiW.ttf")
+}
 
+.sweet{
+    font-family: mySweet;
+    color:black;
+    text-shadow: white 0em 0em 0.3em;
+}
+
+.header p{
+  font-size: 25px;
+  color:black;
+  font-weight:bold;
+
+
+}
 </style>
 </head>
 <body>
-<div id="background">
-<div class="header">
-  <h1>童话似梦</h1>
-  <p>五彩斑斓的童话梦，等你一起来圆梦。</p>
-</div>
+
+
 
 <div class="topnav">
   <a href="/index.html">主页</a>
   <a href="/duineisai.html">车队赛事</a>
   <a href="/joinus.html">加入我们</a>
+  <a href="/joinus.html" style="float:right;">
+ 
+ <img src="images.jpeg"width="80" height="30"/>
+</a>
 </div>
-<div class="footer" >
-<p>梦不需要语言，他们是灵魂深处的花朵。</p>
-<p>梦魇是一种真实，而清醒似乎是沉睡。就好像黑夜是我的白天，白天是我的黑夜。</p>
-<p>梦境是一种现实，有清醒的感受，有释放的生活，有对远方和未知的探索。</p>
-                        <p> 欢迎来到童话似梦</p>
-<p>这个大家庭于2018年由长长欧尼酱创建，前身是已有十二年历史的端游车队 仝球走红 ，经历了端游和手游的过渡时期，现有成员约60余人，因其成员水平层次的不同，所以分组有梦魇组和梦竞组，但无论在哪一个组，每一个成员的地位都是相等的。历经十二余载，这里一直是梦开始的地方，我们互帮互助，得以共荣。</p>
-<h2>等一场花开  等一个你来</h2>
-<p>来自灵魂写手--梦魇组-孤鹜</p>
+
+
+<div class="header">
+
+<h1 class="sweet"style="color:black;text-shadow: white 0.1em 0.1em 0.2em">
+童话似梦</h1>
+<!--
+<div class="img-box">
+ <img src="Logo.png"width="500" height="220"/>
+</div>-->
+
+
+
+
+<p class="sweet">梦不需要语言，他们是灵魂深处的花朵。</p>
+<p class="sweet">梦魇是一种真实，而清醒似乎是沉睡。就好像黑夜是我的白天，白天是我的黑夜。</p>
+<p class="sweet">梦境是一种现实，有清醒的感受，有释放的生活，有对远方和未知的探索。</p>
+                        <p class="sweet"> 欢迎来到童话似梦</p>
+<p class="sweet">这个大家庭于2018年由长长欧尼酱创建，前身是已有十二年历史的端游车队 仝球走红 ，经历了端游和手游的过渡时期，现有成员约60余人，因其成员水平层次的不同，所以分组有梦魇组和梦竞组，但无论在哪一个组，每一个成员的地位都是相等的。历经十二余载，这里一直是梦开始的地方，我们互帮互助，得以共荣。</p>
+<h2 class="sweet">等一场花开  等一个你来</h2>
+<p class="sweet" style="text-align:right;">来自灵魂写手--梦魇组-孤鹜</p>
 </div>
 
 
@@ -180,13 +229,17 @@ body {
       <p>一些文本...</p>
     </div>-->
    
-    <div class="card">
-      <h2>关于我们的考核标准</h2>
+   
+      <h2>梦魇组考核标准</h2>
       <div class="img-box">
-      <img src="http://b54.photo.store.qq.com/psu?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/TAY1E4T9Xv4OHNPgCaQaBI40ksmGNgdsF3nzeLfewn0!/b/YYfZMyOrAAAAYqMUQiArPAAA&a=59&b=54&bo=wgFSAQAAAAABA7Q!&rf=viewer_4"/>
+      <img src="http://m.qpic.cn/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/UEyoh0SDzKiAwcrP9ANXSiphPlFFdZPNUh3OFULifke.4EMocmb23S7sWeFeulVtng5.r3ML9MkxW*yyRk9YnMztmBqyTcvWOznFAxqApzA!/b&bo=RgW3AAAAAAARF9Q!&rf=viewer_4&t=5"/>
+      </div>
+      <h2>梦竞组考核标准</h2>
+      <div class="img-box">
+      <img src="http://m.qpic.cn/psc?/e500dcb2-c0f5-4261-ba0c-5203c5fe20a1/UEyoh0SDzKiAwcrP9ANXSiphPlFFdZPNUh3OFULifke.4EMocmb23S7sWeFeulVtng5.r3ML9MkxW*yyRk9YnMztmBqyTcvWOznFAxqApzA!/b&bo=RgW3AAAAAAARF9Q!&rf=viewer_4&t=5"/>
       </div>
       <p>童话似梦！来就对了！</p>
-    </div>
+    
   <!-- <div class="card">
       <h3>热门文章</h3>
       <div class="fakeimg"><p>图片</p></div>
@@ -200,11 +253,12 @@ body {
     
     
     
-<div class="footer" >
-  <h2>童话似梦欢迎您</h2>
-</div>
+
 <div id="outer" style="clear:both;text-align:center;">
-<p style="color:white;text-shadow: black 0.1em 0.1em 0.2em;">2018-2020 版权 © 童话似梦</p></div>
-</div>
+<p style="color:white;text-shadow: black 0.1em 0.1em 0.2em">2018-2020 版权 © 童话似梦</p></div>
+
+
+
+
 </body>
 </html>
