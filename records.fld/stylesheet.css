@@ -28,25 +28,7 @@ ruby
 	mso-protection:locked visible;
 	mso-style-name:常规;
 	mso-style-id:0;}
-.font8
-	{color:black;
-	font-size:24.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:华文琥珀;
-	mso-generic-font-family:auto;
-	mso-font-charset:134;}
-.font12
-	{color:yellow;
-	font-size:9.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:黑体;
-	mso-generic-font-family:auto;
-	mso-font-charset:134;}
-.font15
+.font14
 	{color:red;
 	font-size:24.0pt;
 	font-weight:400;
@@ -55,7 +37,7 @@ ruby
 	font-family:华文琥珀;
 	mso-generic-font-family:auto;
 	mso-font-charset:134;}
-.font16
+.font15
 	{color:#FFC000;
 	font-size:24.0pt;
 	font-weight:400;
@@ -64,7 +46,7 @@ ruby
 	font-family:华文琥珀;
 	mso-generic-font-family:auto;
 	mso-font-charset:134;}
-.font17
+.font16
 	{color:yellow;
 	font-size:24.0pt;
 	font-weight:400;
@@ -73,8 +55,17 @@ ruby
 	font-family:华文琥珀;
 	mso-generic-font-family:auto;
 	mso-font-charset:134;}
-.font18
+.font17
 	{color:#00B050;
+	font-size:24.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:华文琥珀;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font18
+	{color:black;
 	font-size:24.0pt;
 	font-weight:400;
 	font-style:normal;
